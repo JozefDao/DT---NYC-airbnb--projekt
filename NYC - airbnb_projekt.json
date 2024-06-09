@@ -1,0 +1,605 @@
+[
+    {
+      "listing_id": "60c72b2f5f1b2c6d88f6e07a",
+      "name": "Cozy Apartment",
+      "description": "A cozy and comfortable apartment in the city center.",
+      "roomType": {
+        "roomType_id": "60c72b2f5f1b2c6d88f6e07b",
+        "roomType_name": "Entire Apartment",
+        "description": "A private apartment for the whole family."
+      },
+      "host": {
+        "host_id": "60c72b2f5f1b2c6d88f6e07c",
+        "hostName": "Alice Johnson",
+        "hostResponseTime": "within an hour",
+        "hostResponseRate": 99,
+        "hostListingsCount": 5,
+        "address": {
+          "address_id": "60c72b2f5f1b2c6d88f6e07d",
+          "street": "123 Main St",
+          "latitude": 40.7128,
+          "longitude": -74.0060,
+          "postal_code": "10001",
+          "city": "New York",
+          "country": "USA",
+          "state": "NY",
+          "neighborhood": {
+            "neighborhood_id": "60c72b2f5f1b2c6d88f6e07e",
+            "neighborhoodName": "Manhattan",
+            "borough": {
+              "borough_id": "60c72b2f5f1b2c6d88f6e07f",
+              "boroughName": "California"
+            }
+          }
+        }
+      },
+      "amenities": [
+        {
+          "amenity_id": "60c72b2f5f1b2c6d88f6e080",
+          "amenityName": "WiFi"
+        },
+        {
+          "amenity_id": "60c72b2f5f1b2c6d88f6e081",
+          "amenityName": "Air Conditioning"
+        }
+        ],
+      "guestIncluded": 4,
+      "price": 150,
+      "minimumNights": 2,
+      "availability": true,
+      "numberOfReviews": 10,
+      "lastReview": "2023-06-01",
+      "reviews": [
+        {
+          "review_id": "60c72b2f5f1b2c6d88f6e082",
+          "user_id": "60c72b2f5f1b2c6d88f6e083",
+          "rating": 5,
+          "comment": "Great place to stay!",
+          "review_date": "2023-06-01",
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e083",
+            "first_name": "Martin",
+            "last_name": "Dlhy",
+            "birth_date": "1990-01-01",
+            "age": 34,
+            "gender": "Male",
+            "phone": "123-456-7890",
+            "email": "martin.dlhy@mail.com"
+          }
+        },
+        {
+          "review_id": "60c72b2f5f1b2c6d88f6e084",
+          "user_id": "60c72b2f5f1b2c6d88f6e085",
+          "rating": 4,
+          "comment": "Nice and clean.",
+          "review_date": "2023-06-02",
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e085",
+            "first_name": "Marian",
+            "last_name": "Mokry",
+            "birth_date": "1985-02-15",
+            "age": 39,
+            "gender": "Male",
+            "phone": "234-567-8901",
+            "email": "marian.mokry@mail.com"
+          }
+        },
+        {
+          "review_id": "60c72b2f5f1b2c6d88f6e086",
+          "user_id": "60c72b2f5f1b2c6d88f6e087",
+          "rating": 3,
+          "comment": "Good location but noisy.",
+          "review_date": "2023-06-03",
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e087",
+            "first_name": "Stefan",
+            "last_name": "Suchy",
+            "birth_date": "1978-03-25",
+            "age": 46,
+            "gender": "Male",
+            "phone": "345-678-9012",
+            "email": "stefan.suchy@mail.com"
+          }
+        }
+      ],
+      "photos": [
+        {
+          "photo_id": "60c72b2f5f1b2c6d88f6e088",
+          "photoURL": "http://artphotos.com/photo1.jpg",
+          "description": "Living room"
+        },
+        {
+          "photo_id": "60c72b2f5f1b2c6d88f6e089",
+          "photoURL": "http://artphotos.com/photo2.jpg",
+          "description": "Bedroom"
+        },
+        {
+          "photo_id": "60c72b2f5f1b2c6d88f6e08a",
+          "photoURL": "http://artphotos.com/photo3.jpg",
+          "description": "Kitchen"
+        }
+      ],
+      "bookings": [
+        {
+          "booking_id": "60c72b2f5f1b2c6d88f6e08b",
+          "user_id": "60c72b2f5f1b2c6d88f6e083",
+          "checkIn": "2023-06-10",
+          "checkOut": "2023-06-12",
+          "noGuests": 2,
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e083",
+            "first_name": "Martin",
+            "last_name": "Dlhy",
+            "birth_date": "1990-01-01",
+            "age": 34,
+            "gender": "Male",
+            "phone": "123-456-7890",
+            "email": "martin.dlhy@mail.com"
+          },
+          "payments": [
+            {
+              "payment_id": "60c72b2f5f1b2c6d88f6e08c",
+              "amount": 300,
+              "payment_date": "2023-06-09",
+              "payment_method": "Credit Card"
+            }
+          ]
+        },
+        {
+          "booking_id": "60c72b2f5f1b2c6d88f6e08d",
+          "user_id": "60c72b2f5f1b2c6d88f6e085",
+          "checkIn": "2023-06-15",
+          "checkOut": "2023-06-18",
+          "noGuests": 3,
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e085",
+            "first_name": "Marian",
+            "last_name": "Mokry",
+            "birth_date": "1985-02-15",
+            "age": 39,
+            "gender": "Male",
+            "phone": "234-567-8901",
+            "email": "marian.mokry@mail.com"
+          },
+          "payments": [
+            {
+              "payment_id": "60c72b2f5f1b2c6d88f6e08e",
+              "amount": 450,
+              "payment_date": "2023-06-14",
+              "payment_method": "PayPal"
+            }
+          ]
+        },
+        {
+          "booking_id": "60c72b2f5f1b2c6d88f6e08f",
+          "user_id": "60c72b2f5f1b2c6d88f6e087",
+          "checkIn": "2023-06-20",
+          "checkOut": "2023-06-22",
+          "noGuests": 1,
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e087",
+            "first_name": "Stefan",
+            "last_name": "Suchy",
+            "birth_date": "1978-03-25",
+            "age": 46,
+            "gender": "Male",
+            "phone": "345-678-9012",
+            "email": "stefan.suchy@mail.com"
+          },
+          "payments": [
+            {
+              "payment_id": "60c72b2f5f1b2c6d88f6e090",
+              "amount": 150,
+              "payment_date": "2023-06-19",
+              "payment_method": "Debit Card"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "listing_id": "60c72b2f5f1b2c6d88f6e091",
+      "name": "Modern Loft",
+      "description": "A spacious and modern loft with great views.",
+      "roomType": {
+        "roomType_id": "60c72b2f5f1b2c6d88f6e092",
+        "roomType_name": "Loft",
+        "description": "A stylish loft in the heart of the city."
+      },
+      "host": {
+        "host_id": "60c72b2f5f1b2c6d88f6e093",
+        "hostName": "Bob Smith",
+        "hostResponseTime": "within a few hours",
+        "hostResponseRate": 95,
+        "hostListingsCount": 3,
+        "address": {
+          "address_id": "60c72b2f5f1b2c6d88f6e094",
+          "street": "456 Market St",
+          "latitude": 40.7138,
+          "longitude": -74.0070,
+          "postal_code": "10002",
+          "city": "New York",
+          "country": "USA",
+          "state": "NY",
+          "neighborhood": {
+            "neighborhood_id": "60c72b2f5f1b2c6d88f6e095",
+            "neighborhoodName": "SoHo",
+            "borough": {
+              "borough_id": "60c72b2f5f1b2c6d88f6e096",
+              "boroughName": "Manhattan"
+            }
+          }
+        }
+      },
+      "amenities": [
+        {
+          "amenity_id": "60c72b2f5f1b2c6d88f6e097",
+          "amenityName": "WiFi"
+        },
+        {
+          "amenity_id": "60c72b2f5f1b2c6d88f6e098",
+          "amenityName": "Air Conditioning"
+        },
+        {
+          "amenity_id": "60c72b2f5f1b2c6d88f6e099",
+          "amenityName": "Heating"
+        }
+      ],
+      "guestIncluded": 2,
+      "price": 200,
+      "minimumNights": 3,
+      "availability": true,
+      "numberOfReviews": 15,
+      "lastReview": "2023-06-02",
+      "reviews": [
+        {
+          "review_id": "60c72b2f5f1b2c6d88f6e09a",
+          "user_id": "60c72b2f5f1b2c6d88f6e083",
+          "rating": 5,
+          "comment": "Amazing place!",
+          "review_date": "2023-06-03",
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e083",
+            "first_name": "Jozef",
+            "last_name": "Mlady",
+            "birth_date": "1985-07-05",
+            "age": 39,
+            "gender": "Male",
+            "phone": "558-342-7856",
+            "email": "jozef.mlady@mail.com"
+          }
+        },
+        {
+          "review_id": "60c72b2f5f1b2c6d88f6e09b",
+          "user_id": "60c72b2f5f1b2c6d88f6e085",
+          "rating": 4,
+          "comment": "Very comfortable.",
+          "review_date": "2023-06-04",
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e085",
+            "first_name": "Ivan",
+            "last_name": "Dreveny",
+            "birth_date": "1996-05-30",
+            "age": 28,
+            "gender": "Male",
+            "phone": "569-514-4578",
+            "email": "ivan.dreveny@mail.com"
+          }
+        },
+        {
+          "review_id": "60c72b2f5f1b2c6d88f6e09c",
+          "user_id": "60c72b2f5f1b2c6d88f6e087",
+          "rating": 3,
+          "comment": "Nice but noisy.",
+          "review_date": "2023-06-05",
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e087",
+            "first_name": "Bozena",
+            "last_name": "Kratka",
+            "birth_date": "1993-12-16",
+            "age": 31,
+            "gender": "Female",
+            "phone": "326-258-1547",
+            "email": "bozena.kratka@mail.com"
+          }
+        }
+      ],
+      "photos": [
+        {
+          "photo_id": "60c72b2f5f1b2c6d88f6e09d",
+          "photoURL": "http://artphotos.com/photo4.jpg",
+          "description": "Bathroom"
+        },
+        {
+          "photo_id": "60c72b2f5f1b2c6d88f6e09e",
+          "photoURL": "http://artphotos.com/photo5.jpg",
+          "description": "Kid's room"
+        },
+        {
+          "photo_id": "60c72b2f5f1b2c6d88f6e09f",
+          "photoURL": "http://artphotos.com/photo6.jpg",
+          "description": "Laundry room"
+        }
+      ],
+      "bookings": [
+        {
+          "booking_id": "60c72b2f5f1b2c6d88f6ea0",
+          "user_id": "60c72b2f5f1b2c6d88f6e083",
+          "checkIn": "2023-06-12",
+          "checkOut": "2023-06-14",
+          "noGuests": 2,
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e083",
+            "first_name": "Jozef",
+            "last_name": "Mlady",
+            "birth_date": "1985-07-05",
+            "age": 39,
+            "gender": "Male",
+            "phone": "558-342-7856",
+            "email": "jozef.mlady@mail.com"
+          },
+          "payments": [
+            {
+              "payment_id": "60c72b2f5f1b2c6d88f6ea1",
+              "amount": 400,
+              "payment_date": "2023-06-11",
+              "payment_method": "Credit Card"
+            }
+          ]
+        },
+        {
+          "booking_id": "60c72b2f5f1b2c6d88f6ea2",
+          "user_id": "60c72b2f5f1b2c6d88f6e085",
+          "checkIn": "2023-06-16",
+          "checkOut": "2023-06-19",
+          "noGuests": 3,
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e085",
+            "first_name": "Ivan",
+            "last_name": "Dreveny",
+            "birth_date": "1996-05-30",
+            "age": 28,
+            "gender": "Male",
+            "phone": "569-514-4578",
+            "email": "ivan.dreveny@mail.com"
+          },
+          "payments": [
+            {
+              "payment_id": "60c72b2f5f1b2c6d88f6ea3",
+              "amount": 600,
+              "payment_date": "2023-06-15",
+              "payment_method": "PayPal"
+            }
+          ]
+        },
+        {
+          "booking_id": "60c72b2f5f1b2c6d88f6ea4",
+          "user_id": "60c72b2f5f1b2c6d88f6e087",
+          "checkIn": "2023-06-22",
+          "checkOut": "2023-06-24",
+          "noGuests": 1,
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e087",
+            "first_name": "Bozena",
+            "last_name": "Kratka",
+            "birth_date": "1993-12-16",
+            "age": 31,
+            "gender": "Female",
+            "phone": "326-258-1547",
+            "email": "bozena.kratka@mail.com"
+          },
+          "payments": [
+            {
+              "payment_id": "60c72b2f5f1b2c6d88f6ea5",
+              "amount": 200,
+              "payment_date": "2023-06-21",
+              "payment_method": "Debit Card"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "listing_id": "60c72b2f5f1b2c6d88f6ea6",
+      "name": "Luxury Condo",
+      "description": "A luxurious condo with all amenities included.",
+      "roomType": {
+        "roomType_id": "60c72b2f5f1b2c6d88f6ea7",
+        "roomType_name": "Condo",
+        "description": "A high-end condo with premium facilities."
+      },
+      "host": {
+        "host_id": "60c72b2f5f1b2c6d88f6ea8",
+        "hostName": "Charlie Brown",
+        "hostResponseTime": "within a day",
+        "hostResponseRate": 90,
+        "hostListingsCount": 2,
+        "address": {
+          "address_id": "60c72b2f5f1b2c6d88f6ea9",
+          "street": "789 Broadway",
+          "latitude": 40.7148,
+          "longitude": -74.0080,
+          "postal_code": "10003",
+          "city": "New York",
+          "country": "USA",
+          "state": "NY",
+          "neighborhood": {
+            "neighborhood_id": "60c72b2f5f1b2c6d88f6eaa",
+            "neighborhoodName": "Greenwich Village",
+            "borough": {
+              "borough_id": "60c72b2f5f1b2c6d88f6eab",
+              "boroughName": "Chicago"
+            }
+          }
+        }
+      },
+      "amenities": [
+        {
+          "amenity_id": "60c72b2f5f1b2c6d88f6eac",
+          "amenityName": "WiFi"
+        },
+        {
+          "amenity_id": "60c72b2f5f1b2c6d88f6ead",
+          "amenityName": "Air Conditioning"
+        },
+        {
+          "amenity_id": "60c72b2f5f1b2c6d88f6eae",
+          "amenityName": "Gym"
+        }
+      ],
+      "guestIncluded": 3,
+      "price": 250,
+      "minimumNights": 4,
+      "availability": false,
+      "numberOfReviews": 20,
+      "lastReview": "2023-06-06",
+      "reviews": [
+        {
+          "review_id": "60c72b2f5f1b2c6d88f6eaf",
+          "user_id": "60c72b2f5f1b2c6d88f6e083",
+          "rating": 5,
+          "comment": "Absolutely fantastic!",
+          "review_date": "2023-06-07",
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e083",
+            "first_name": "Miroslav",
+            "last_name": "Banik",
+            "birth_date": "2000-04-04",
+            "age": 23,
+            "gender": "Male",
+            "phone": "203-325-4758",
+            "email": "miroslav.banik@mail.com"
+          }
+        },
+        {
+          "review_id": "60c72b2f5f1b2c6d88f6eb0",
+          "user_id": "60c72b2f5f1b2c6d88f6e085",
+          "rating": 4,
+          "comment": "Loved it!",
+          "review_date": "2023-06-08",
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e085",
+            "first_name": "Silvia",
+            "last_name": "Vysoka",
+            "birth_date": "2001-10-22",
+            "age": 22,
+            "gender": "Female",
+            "phone": "173-659-2015",
+            "email": "silvia.vysoka@mail.com"
+          }
+        },
+        {
+          "review_id": "60c72b2f5f1b2c6d88f6eb1",
+          "user_id": "60c72b2f5f1b2c6d88f6e087",
+          "rating": 3,
+          "comment": "Good but expensive.",
+          "review_date": "2023-06-09",
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e087",
+            "first_name": "Peter",
+            "last_name": "Straka",
+            "birth_date": "1983-11-03",
+            "age": 41,
+            "gender": "Male",
+            "phone": "287-569-1054",
+            "email": "peter.straka@mail.com"
+          }
+        }
+      ],
+      "photos": [
+        {
+          "photo_id": "60c72b2f5f1b2c6d88f6eb2",
+          "photoURL": "http://artphotos.com/photo7.jpg",
+          "description": "Guest room"
+        },
+        {
+          "photo_id": "60c72b2f5f1b2c6d88f6eb3",
+          "photoURL": "http://artphotos.com/photo8.jpg",
+          "description": "Pantry"
+        },
+        {
+          "photo_id": "60c72b2f5f1b2c6d88f6eb4",
+          "photoURL": "http://artphotos.com/photo9.jpg",
+          "description": "Technical room"
+        }
+      ],
+      "bookings": [
+        {
+          "booking_id": "60c72b2f5f1b2c6d88f6eb5",
+          "user_id": "60c72b2f5f1b2c6d88f6e083",
+          "checkIn": "2023-06-24",
+          "checkOut": "2023-06-28",
+          "noGuests": 2,
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e083",
+            "first_name": "Miroslav",
+            "last_name": "Banik",
+            "birth_date": "2000-04-04",
+            "age": 23,
+            "gender": "Male",
+            "phone": "203-325-4758",
+            "email": "miroslav.banik@mail.com"
+          },
+          "payments": [
+            {
+              "payment_id": "60c72b2f5f1b2c6d88f6eb6",
+              "amount": 4000,
+              "payment_date": "2023-06-23",
+              "payment_method": "Credit Card"
+            }
+          ]
+        },
+        {
+          "booking_id": "60c72b2f5f1b2c6d88f6eb7",
+          "user_id": "60c72b2f5f1b2c6d88f6e085",
+          "checkIn": "2023-06-29",
+          "checkOut": "2023-07-03",
+          "noGuests": 3,
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e085",
+            "first_name": "Silvia",
+            "last_name": "Vysoka",
+            "birth_date": "2001-10-22",
+            "age": 22,
+            "gender": "Female",
+            "phone": "173-659-2015",
+            "email": "silvia.vysoka@mail.com"
+          },
+          "payments": [
+            {
+              "payment_id": "60c72b2f5f1b2c6d88f6eb8",
+              "amount": 1250,
+              "payment_date": "2023-06-28",
+              "payment_method": "PayPal"
+            }
+          ]
+        },
+        {
+          "booking_id": "60c72b2f5f1b2c6d88f6eb9",
+          "user_id": "60c72b2f5f1b2c6d88f6e087",
+          "checkIn": "2023-07-05",
+          "checkOut": "2023-07-08",
+          "noGuests": 1,
+          "user": {
+            "user_id": "60c72b2f5f1b2c6d88f6e087",
+            "first_name": "Peter",
+            "last_name": "Straka",
+            "birth_date": "1983-11-03",
+            "age": 41,
+            "gender": "Male",
+            "phone": "287-569-1054",
+            "email": "peter.straka@mail.com"
+          },
+          "payments": [
+            {
+              "payment_id": "60c72b2f5f1b2c6d88f6eba",
+              "amount": 1000,
+              "payment_date": "2023-07-04",
+              "payment_method": "Debit Card"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
